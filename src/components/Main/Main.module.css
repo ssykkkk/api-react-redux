@@ -1,0 +1,31 @@
+/* .grid {
+  display: grid;
+  gap: 15px;
+}
+.item{
+  display: grid;
+  grid-template-columns: 30px repeat(2, 2fr) 100px repeat(4, 1fr);
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+.item > p{
+  display: flex;
+  align-items: center;
+  gap: 6px
+}
+.item:first-child{
+  border-bottom: 2px solid #000; ;
+}
+.item:first-child > p{
+  font-weight: bold;
+} */
+
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.child {
+  flex: 1;
+}
